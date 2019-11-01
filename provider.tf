@@ -6,7 +6,7 @@ provider "google" {
 
 terraform {
   backend "gcs" {
-    bucket = "jira-demo"
+    bucket = "jira-demo-yaroslav"
     prefix = "demo"
   }
 }
