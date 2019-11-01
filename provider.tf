@@ -6,7 +6,7 @@ provider "google" {
 
 terraform {
   backend "gcs" {
-    bucket = "devopscube-states"
+    bucket = "jira-demo"
     prefix = "demo"
   }
 }
