@@ -29,7 +29,7 @@ resource "google_compute_instance" "default" {
     product = "uc",
     type = "aio",
     end_of_life = "1574380800",
-    working_till = "1573158963",
+    working_till = "1573158985",
     jira="aut-5"
   }
 
